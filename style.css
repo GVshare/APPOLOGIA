@@ -1,0 +1,150 @@
+body {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+header {
+	width: 100vw;
+	position: fixed;
+	background-color: black;
+	display: flex;
+	height: 10vh;
+	justify-content: space-between;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.title {
+	color: white;
+	font-size: 2em;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 2vw;
+}
+
+#menu {
+	height: 100%;
+	margin-bottom: auto;
+	margin-top: auto;
+	width: auto;
+	text-align: center;
+	margin-right: 2vw;
+}
+
+#menuUl {
+	list-style: none;
+	display: flex;
+}
+
+.menuControl {
+	color: white;
+	margin-left: 4vw;
+	font-size: 1.5em;
+}
+
+.sms {
+	color: white;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+#menuSlide {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	transition-duration: 0.6s;
+	right: 0;
+	top: 10vh;
+	height: 90vh;
+	width: 0%;
+	background-color: black;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	z-index: 99;
+}
+
+#closeMenu {
+	position: absolute;
+	right: 5%;
+	top: 5%;
+	font-size: 1.5em;
+}
+
+#menuSlide ul {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.menuLi {
+	color: white;
+	list-style: none;
+	font-size: 1.5em;
+	text-align: center;
+	line-height: 2em;
+}
+
+.menuLi:hover {
+	border-top: solid 1px white;
+}
+
+#slider {
+	display: flex;
+	overflow-x: hidden;
+	width: 100%;
+}
+
+.pictSlide {
+	position: absolute;
+	width: 25%;
+	height: 82vh;
+	margin-top: 10vh;
+	background-size: 100%;
+	transition-duration: 2s;
+	background-repeat: no-repeat;
+}
+
+#slideOne {
+	left: 0%;
+	background-image: url("images/slide1.jpg");
+}
+
+#slideTwo {
+	left: 25%;
+	background-image: url("images/slide2.jpg");
+}
+
+#slideThree {
+	left: 50%;
+	background-image: url("images/slide3.jpg");
+}
+
+#slideFour {
+	left: 75%;
+	background-image: url("images/slide4.jpg");
+}
+
+#slideFive {
+	left: 100%;
+	background-image: url("images/slide5.jpg");
+}
+
+#slideSix {
+	left: -25%;
+	background-image: url("images/slide6.jpg");
+}
+
+#slideSeven {
+	left: -50%;
+	background-image: url("images/slide7.jpg");
+}
+
+#slideHeight {
+	left: 125%;
+	background-image: url("images/slide8.jpg");
+}
